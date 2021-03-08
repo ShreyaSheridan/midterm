@@ -28,6 +28,11 @@ public class Status {
     String code = in.next();
     StausUser t= new StausUser();
     t.statusDetail(code); 
+    
+    status s = status.userstatus;
+    System.out.println(s);
+    
+    }
     }
     
-}
+
